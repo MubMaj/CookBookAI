@@ -2,9 +2,9 @@ import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
-    <div>
-        <h2>i am Header</h2>
-        <ul>
+    <div className="flex justify-between mx-9">
+        <h2 className="text-3xl font-bold">Cook Book AI</h2>
+        <ul className="flex gap-5">
           <li>
             <Link to={"/"}>Home</Link>
           </li>
